@@ -1,0 +1,9 @@
+; division of two number  8 bit
+
+
+global _start
+section .text
+_start:
+	mov al, 249
+	mov bl, 23
+	div bx
